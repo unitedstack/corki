@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/bundle.css">
+  <title>Document</title>
+</head>
+<body>
+    @@include('../common/header.html')
+  <div class="homepage-body">
+    <!-- banner -->
+    <div class="homepage-part-one">
+      <div class="banner-wrapper">
+        <div class="banner-center">
+          <div class="banner-doc">
+            <p class="doc-title">同方有云专属文档库</p>
+            <p class="doc-intro">同方有云专属文档库为所有同方有云的客户以及内部成员，提供最新最全的文档下载以及在线阅读，包含硬件设备、云平台操作系统、存储、大数据等先进科研领域的核心技术资料。</p>
+            <a class="button" href="/document">了解更多</a>
+          </div>
+        </div>
+        <img class="ikon" src="../img/index/mobile-banner-img.png">
+      </div>
+    </div>
+    <!-- part one: latest documents -->
+    <div class="latest-doc">
+      <p class="latest-title">LATEST DOCUMENTS</p>
+      <p class="subhead">最新<span>文档</span></p>
+      <div class="latest-content">
+        <a class="doc-float" href="/document.html#overviewUos">
+          <p class="doc-title">UOS文档</p>
+          <p class="doc-line"></p>
+          <p class="doc-version">UOS-4.1.0</p>
+          <p class="doc-intro">UOS是一套涵盖计算，网络，存储以及周边的运维运营系统于一体的复杂平台，以OpenStack开源项目为基础，构建的一套以IaaS为核心，向下纳管物理硬件，向上整合PaaS/SaaS服务的云平台。</p>
+        </a>
+        <a class="doc-float" href="/document.html#overviewUds">
+          <p class="doc-title">UDS文档</p>
+          <p class="doc-line"></p>
+          <p class="doc-version">UDS-4.1.0</p>
+          <p class="doc-intro">UDS的基础是可靠的自动分布式对象存储（RADOS），它为您的应用程序提供对象，数据块和文件系统存储在一个统一的存储集群中 - 使得Ceph​​灵活，高度可靠并且易于管理。</p>
+        </a>
+        <a class="doc-float" href="/document.html#overviewUbd">
+          <p class="doc-title">UBD文档</p>
+          <p class="doc-line"></p>
+          <p class="doc-version">UBD-4.1.0</p>
+          <p class="doc-intro">UBD以开源的hadoop生态为基础，在部署，易用性，监控，性能上面做了大量优化，且针对不同的行业可以做高度的适配，从而能够使用户轻松应对大数据时代的数据挑战。</p>
+        </a>
+      </div>
+    </div>
+    <!-- part two: product documents -->
+    <div class="product-doc-bg">
+      <div class="product-doc">
+        <div class="doc-img">
+          <img src="../img/index/product-doc.png" alt="">
+          <div class="doc-content">
+            <p class="product-title">三大产品文档</p>
+            <a class="button-all" href="/document">查看全部</a>
+            <p class="product-intro">同方有云产品文档汇集了同方有云工程师的智慧结晶，以下分别是UOS、UDS、UBS三大王牌产品文档。</p>
+          </div>
+          <div class="float-doc">
+            <div class="float-doc-item">
+              <p class="doc-title">UOS文档</p>
+              <p class="doc-line"></p>
+              <p class="doc-version">UOS</p>
+              <p class="doc-intro">基于openstack的知识库</p>
+              <a class="button" href="document.html#overviewUos">查看文档 ></a>
+            </div>
+            <div class="float-doc-item">
+              <p class="doc-title">UDS文档</p>
+              <p class="doc-line"></p>
+              <p class="doc-version">UDS</p>
+              <p class="doc-intro">基于ceph的知识库</p>
+              <a class="button" href="document.html#overviewUds">查看文档 ></a>
+            </div>
+            <div class="float-doc-item">
+              <p class="doc-title">UBD文档</p>
+              <p class="doc-line"></p>
+              <p class="doc-version">UBD</p>
+              <p class="doc-intro">基于HDFS的知识库</p>
+              <a class="button" href="document.html#overviewUbd">查看文档 ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-float">
+      </div>
+    </div>
+    <!-- part three: product-user -->
+    <div class="user-evaluate">
+        <p class="latest-title">THE USER EVALUATION</p>
+        <p class="subhead">用户评价<span>—他们都使用我们的产品</span></p>
+        <div class="latest-content">
+          <div class="doc-float">
+            <img class="user" src="../img/index/user-qinghua.png" alt="">
+            <img class="logo" src="../img/index/logo-qinghua.png" alt="">
+          </div>
+          <div class="doc-float">
+            <img class="user" src="../img/index/user-gongan.png" alt="">
+            <img class="logo" src="../img/index/logo-gongan.png" alt="">
+          </div>
+          <div class="doc-float">
+            <img class="user" src="../img/index/user-yinhang.png" alt="">
+            <img class="logo" src="../img/index/logo-yinhang.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  @@include('../common/footer.html')
+</body>
+  <script src="./js/jquery-3.2.1.min.js"></script>
+  <script src="./js/bundle.js"></script>
+</html>
