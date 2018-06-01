@@ -1,6 +1,12 @@
-(function(){
-  document.getElementsByClassName('homepage-part-one')[0].style.height =(window.innerHeight - 50 ) + 'px';
-}());
+var winH;
+
+if(window.innerWidth >=1024) {
+  winH = $(window).height() - 68;
+} else {
+  winH = $(window).height() - 50;
+}
+
+$('.homepage-part-one').height(winH);
 
 $('.x-wrapper').click(function() {
   $('.nav-header-mobile').toggleClass('open');
