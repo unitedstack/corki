@@ -1,0 +1,205 @@
+.footerlink {
+  width: 100%;
+  background: #252634;
+  .caller {
+    background: #01AFC9;
+    .center {
+      width: 1200px;
+      height: 70px;
+      line-height: 70px;
+      color: #ffffff;
+      margin: 0 auto;
+      font-weight: 200;
+      .reply {
+        font-size: 18px;
+        letter-spacing: 0.4px;
+        margin-right: 50px;
+      }
+      .time {
+        font-size: 22px;
+        letter-spacing: 0.69px;
+      }
+      a .weixin {
+        float: right;
+        display: inline-block;
+        width: 30px;
+        margin-top: 20px;
+      }      
+    }
+  }
+  .banner-center {
+    width: 1200px;
+    height: 412px;
+    padding-top: 62px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 200;
+    .mobile-concat, .mobile-copyright {
+      display: none;
+    }
+    ul li {
+      letter-spacing: 0.89px;
+      a {
+        color: #FFFFFF;
+        text-decoration: none;
+      }
+      span{
+        display: none;
+      }
+    }
+    .official-link {
+      float: right;
+      a {
+        color: #FFFFFF;
+        display: block;
+        text-decoration: none;
+      }
+    }
+  }
+  .footer-left {
+    float: left;
+    padding-right: 500px;
+    .company-info {
+      opacity: 0.6;
+      color: #BFBFBF;
+      letter-spacing: 0.5px;
+      line-height: 26px;
+      padding-bottom: 12px;
+      img {
+        width: 16px;
+        height: 15px;
+        margin-right: 4px;
+      }
+    }
+    .contact{
+      font-size: 22px;
+      color: #FFFFFF !important;
+      letter-spacing: 0.5px;
+      padding-bottom: 18px;
+    }
+    .logo-image{
+      display: block;
+      img{
+        width: 94px;
+        height: 40px;
+        margin-right: 10px;
+      }
+    }
+  }
+  ul {
+    float: left;
+    padding-right: 80px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footerlink {
+    height: 470px;
+    .caller {
+      .center {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        padding: 0 4%;
+        box-sizing: border-box;
+        .reply { 
+          font-size: 12px;
+          letter-spacing: 0.17px;
+        }
+        .time {
+          font-size: 14px;
+          letter-spacing: 0.2px;
+        }
+        a .weixin {
+          margin-top: 10px;
+        }
+      }
+    }
+    .banner-center {
+      width: 100%;
+      overflow: hidden;
+      padding: 4% 5%;
+      .footer-left {
+        display: none;
+      }
+      ul {
+        padding: 0 0 6px 0;
+        font-size: 12px;
+        color: #FFFFFF;
+        margin-bottom: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+        float: none;
+        li{
+          display: inline-block;
+          padding-right: 14px;
+          span{
+            padding-left: 16px;
+            display: inline-block;
+          }
+        }
+      }
+      .mobile-concat {
+        display: block;
+        padding: 20px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+        p {
+          margin: 0;
+          display: block;
+          color: rgba(255, 255, 255, 0.7);
+          font-size: 12px;
+        }
+        .company-info {
+          margin-top: 10px;
+          opacity: 0.7;
+          border: 1px solid #FFFFFF;
+          border-radius: 2px;
+          text-align: center;
+          img{
+            width: 16px;
+            height: 14px;
+            margin-right: 4px;
+            position: relative;
+            top: 3px;
+          }
+        }
+      }
+      .mobile-copyright {
+        display: block;
+        padding: 20px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+        p {
+          margin: 0;
+          display: block;
+          color: rgba(255, 255, 255, 0.7);
+          font-size: 12px;
+        }
+      }
+      .official-link {
+        float: none;
+        font-size: 12px;
+        padding: 20px 0;
+        opacity: 0.7;
+        border-bottom: 1px solid #ffffff;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1240px) {
+  .footerlink {
+    .caller .center {
+      width: 900px;
+    }
+    .banner-center {
+      width: 900px;
+      .footer-left {
+        padding-right: 260px;
+      }
+      ul {
+        padding-right: 20px;
+      }
+    }
+  }
+}

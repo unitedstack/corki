@@ -1,2 +1,1 @@
-# corki
-document official website.
+公司文档页面
